@@ -8,5 +8,3 @@
 张嘉虔邮箱: ZYY11282021@163.com      
 王明远邮箱: tigerWangmingyuan@163.com      
 
-*最后，感谢您的使用！*
----
