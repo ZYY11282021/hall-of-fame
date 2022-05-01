@@ -1,0 +1,85 @@
+* {
+    font-family: Helvetica, "Microsoft Yahei", "PingFang SC", "Ubuntu Mono", sans-serif;
+}
+
+h1{
+    color: gray;
+    text-align:center;
+}
+
+h2{
+    color: darkorange;
+    text-align: center;
+}
+
+h3{
+    color:skyblue;
+    text-align:center;
+    cursor: pointer;
+}
+
+.c {
+    color:gray;
+    text-align:center;
+    text-decoration: line-through;
+}
+
+div{
+    text-align:center;
+}
+
+h5, a {
+    color: white;
+    text-align: end;
+}
+
+input[type="button"] {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #5bf350, #f3f56b);
+    border: 1px solid lightskyblue;
+}
+
+.upnote {
+    text-align: end;
+}
+
+.notice {
+    position: relative;
+    left: 52%;
+    margin-left: -400px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(25, 233, 243, 0.8);
+    width: 800px;
+    height: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: linear-gradient(
+        to bottom,
+        hsl(0deg, 100%, 50%, 0.4) 0%,
+        hsl(40deg, 100%, 50%) 20%,
+        hsl(80deg, 100%, 50%) 30%,
+        hsl(120deg, 100%, 50%) 40%,
+        hsl(180deg, 100%, 50%) 50%,
+        hsl(250deg, 100%, 50%) 80%,
+        hsl(320deg, 100%, 50%, 0.4) 100%
+    );
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        to bottom,
+        hsl(0deg, 100%, 50%, 0) 0%,
+        hsl(0deg, 100%, 100%, 0.9) 20%,
+        hsl(0deg, 100%, 100%, 0.9) 80%,
+        hsl(0deg, 100%, 50%, 0) 100%
+    );
+    border-radius: 100%;
+}
+
